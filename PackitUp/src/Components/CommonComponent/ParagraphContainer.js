@@ -8,11 +8,12 @@ class ParagraphContainer extends Component {
         const backgroundColor = this.props.backgroundColor;
         const borderRadius = this.props.borderRadius;
         const width = this.props.width;
+        const padding =this.props.padding;
 
         return (
-            <div className="paragraphContainer justify-content-center" style={{marginTop, backgroundColor, borderRadius, width}}>
-                <ParagraphHeader content={this.props.paragraphHeader} width={this.props.cmnWidth}/>
-                <Paragraph content={this.props.pargraph} width={this.props.cmnWidth}/>
+            <div className="paragraphContainer justify-content-center" style={{marginTop, backgroundColor, borderRadius, width, padding}}>
+                <ParagraphHeader content={this.props.paragraphHeader} width={this.props.cmnWidth} margin={this.props.margin}/>
+                <Paragraph content={this.props.pargraph} width={this.props.cmnWidth} margin={this.props.margin}/>
             </div>
         );
     }

@@ -60,6 +60,58 @@
       display: block;
       margin-top: 28em;
   }
+  .sdgRight {
+      background-image: url(../assets/images/About/PackitUp_sdg.jpg);
+      background-repeat: no-repeat;
+      width: 50%;
+      background-position: center;
+      background-size: cover;
+      height: 40em;
+      border-radius: 40px 0 0 40px;
+      padding-left: 5em;
+  }
+  .intentionImg {
+      background-repeat: no-repeat;
+      width: 65%;
+      border-radius: 40px 40px 40px 40px;
+      background-position: center;
+      background-size: cover;
+      height: 25em;
+      margin-left: 5em;
+      margin-right: 5em;
+  }
+
+  .aboutBannerImg {
+      background-image: url(../assets/images/About/PackitUp_background_about.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 75vh;
+      display: block;
+  }
+
+  .aboutBannerContainer {
+      background-color: #EEFBF6;
+      padding: 4em 4em 4em 6em;
+      border-radius: 0 40px 40px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,.2), 0 -1px 0 rgba(0,0,0,.02);
+  }
+
+  .aboutBannerContainerTitle {
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+  }
+  .aboutBannerContainerSubTitle {
+      font-size: 1.5em;
+      font-weight: 700;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
 
   .banner-container {
       background-color: #fff;
@@ -257,4 +309,27 @@
 
   .footerContent {
       font-size: 1.2em;
+  }
+
+  /*Team Style*/
+  .teamHeader {
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      font-size: 2.5em;
+  }
+  .avatarImgStyle {
+      max-width: 68%;
+      border-radius: 20px;
+  }
+  .teamMemberName {
+      font-size: 1.5em;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      font-weight: bold;
+  }
+  .designation {
+      font-size: 1.5em;
   }

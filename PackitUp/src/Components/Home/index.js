@@ -1,23 +1,18 @@
 import React, {Component, Fragment} from 'react';
 import RoundedBannerContainer from "../CommonComponent/RoundedBannerContainer";
-import NavBar from "../CommonComponent/NavBar";
 import ParagraphContainer from "../CommonComponent/ParagraphContainer";
 import introImg1 from '../../assets/images/PackitUp_intro1.jpg';
 import introImg2 from '../../assets/images/PackitUp_intro2.jpg';
 import introImg3 from '../../assets/images/PackitUp_intro3.jpg';
-import bgFooterImg from '../../assets/images/PackitUp_outro.jpg'
 import mobImgMap from '../../assets/images/PackitUp_map.png';
 import mobImgTrip from '../../assets/images/PackitUp_trip.png';
 import mobImgUser from '../../assets/images/PackitUp_user.png';
 import mobImgChat from '../../assets/images/PackitUp_chat.png';
-import ParagraphHeader from "../CommonComponent/ParagraphHeader";
-import Footer from "../CommonComponent/Footer";
 
 class Index extends Component {
     render() {
         return (
             <Fragment>
-                <NavBar/>
                 {/*1st section*/}
                 <div className="bg-img container-fluid"><RoundedBannerContainer/></div>
 
@@ -115,9 +110,6 @@ class Index extends Component {
                         </div>
                     </div>
                 </div>
-
-                {/*7th section*/}
-                <Footer />
 
             </Fragment>
         );
