@@ -11,7 +11,7 @@ class ParagraphContainer extends Component {
         const padding =this.props.padding;
 
         return (
-            <div className="paragraphContainer justify-content-center" style={{marginTop, backgroundColor, borderRadius, width, padding}}>
+            <div className={`paragraphContainer justify-content-center ${this.props.classes}`} style={{marginTop, backgroundColor, borderRadius, width, padding}}>
                 <ParagraphHeader content={this.props.paragraphHeader} width={this.props.cmnWidth} margin={this.props.margin}/>
                 <Paragraph content={this.props.pargraph} width={this.props.cmnWidth} margin={this.props.margin}/>
             </div>

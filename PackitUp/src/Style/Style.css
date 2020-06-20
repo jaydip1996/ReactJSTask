@@ -333,3 +333,115 @@
   .designation {
       font-size: 1.5em;
   }
+
+  .bannerForBusinessSection {
+      background-image: url(../assets/images/ForBusiness/PackitUp_background_partners.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 80vh;
+      display: block;
+  }
+
+  .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 15px 4px;
+      background-color: #fff;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color .6s ease;
+  }
+
+  .bannerHeaderForBusiness {
+      color: #fff;
+      font-size: 2em;
+      margin: .67em 0;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+  }
+
+  .bannerParagraphForBusiness {
+      color: #fff;
+      width: 422px;
+      font-size: 1.5em;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+  }
+
+  .bannerButtonForBusiness {
+      background-color: #00B685;
+      width: 353px;
+      color: white;
+      border: none;
+      text-align: center;
+      height: 3em;
+      border-radius: 40px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+  #hover:hover {
+      border: 5px solid #00B685;
+      opacity: 0.7;
+  }
+
+  #hoverGrow {
+      transition: all .2s ease-in-out;
+  }
+
+  #hoverGrow:hover {
+      transform: scale(1.1);
+  }
+
+  .introCardImgStyle {
+      width: 16em;
+      margin: 3em auto;
+  }
+
+  .introCardHeader {
+      font-size: 1.5em;
+      margin-block-end: 0.83em;
+      font-weight: bold;
+  }
+
+  .introCardContent {
+      font-size: 1.5em;
+      width: 660px;
+  }
+
+  .CardHeadingForBusiness {
+      color: #fff;
+      font-size: 1.5em;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      font-weight: bold;
+  }
+
+  .CardContentForBusiness {
+      font-weight: 700;
+      margin: 2em 0;
+      font-size: 16px;
+      color: #2a2d34;
+  }
+
+  .contactForBusinessStyle {
+      color: #FF0000;
+      font-size: 1.17em;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      font-weight: bold;
+  }
+
+  .priceServiceDetail {
+      color: #2a2d34;
+      font-size: 0.7em;
+      margin: 0.7em 0;
+  }
