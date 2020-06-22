@@ -1,0 +1,46 @@
+.bannerPartnersSection {
+    background-image: url('../assets/images/Partners/PackitUp_background_partners2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 90vh;
+    display: block;
+}
+
+.imgRightFloatRounded {
+    float: right;
+    border-radius: 40px 0 0 40px;
+    height: 40em;
+    margin-top: -5em;
+}
+
+.imgLeftFloatRounded {
+    float: left;
+    border-radius: 0 40px 40px 0;
+    height: 40em;
+    margin-top: -5em;
+}
+
+.communitySubHeaders{
+    font-size: 2.5em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.communitySubContent{
+    font-size: 1.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: center;
+}
+
+.howItWokrsSubBGImg {
+    background-image: url('../assets/images/Partners/HowItWorks/PackitUp_partnersBottom.jpg');
+    margin-top: 1em;
+    height: 90vh;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -43,6 +43,29 @@
   .boffset8 { margin-bottom: 100px; }
   .boffset9 { margin-bottom: 150px; }
 
+  .pvoffset { padding-top: 2px; }
+  .pvoffset1 { padding-top: 5px; }
+  .pvoffset2 { padding-top: 10px; }
+  .pvoffset3 { padding-top: 15px; }
+  .pvoffset4 { padding-top: 30px; }
+  .pvoffset5 { margin-top: 40px; }
+  .pvoffset6 { padding-top: 60px; }
+  .pvoffset7 { padding-top: 80px; }
+  .pvoffset8 { padding-top: 100px; }
+  .pvoffset9 { padding-top: 150px; }
+
+  .pboffset { padding-bottom: 2px; }
+  .pboffset1 { padding-bottom: 5px; }
+  .pboffset2 { padding-bottom: 10px; }
+  .pboffset3 { padding-bottom: 15px; }
+  .pboffset4 { padding-bottom: 30px; }
+  .pboffset5 { padding-bottom: 40px; }
+  .pboffset6 { padding-bottom: 60px; }
+  .pboffset7 { padding-bottom: 80px; }
+  .pboffset8 { padding-bottom: 100px; }
+  .pboffset9 { padding-bottom: 150px; }
+
+
   .bg-img {
       background-image: url(../assets/images/PackitUp_background_home.jpg);
       background-size: cover;
